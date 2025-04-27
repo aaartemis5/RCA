@@ -1,0 +1,7 @@
+langchain
+unstructured[pdf]
+python-dotenv
+pillow
+pytesseract
+pdmupdf
+poppler-utils
