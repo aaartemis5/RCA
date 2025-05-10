@@ -1,0 +1,532 @@
+[
+  {
+    "id": "sumbersible_motor_pump_pg1_chunk1",
+    "text_to_embed": " The manual describes the proper and safe use of this equipment in all phases of operation. The name plate indicates the type series and size, the main operating data, the order number and",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 1,
+      "heading": "",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg1_chunk1",
+    "text_to_embed": "General 1.1 Principles The manual describes the proper and safe use of this equipment in all phases of operation. The name plate indicates the type series and size, the main operating data, the order number and the order item number. The order number and order item number uniquely identify the pump set and serve as identification for all further business processes. In the event of damage, immediately contact your nearest KSB service center to maintain the right to claim warranty. 1.2 Installation of partly completed machinery To install partly completed machinery supplied by KSB, refer to the sub-sections under Servicing/Maintenance. 1.3 Target group This operating manual is aimed at the target group of trained and qualified specialist technical personnel. (⇨ Section 2.4 Page 10)",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 1,
+      "heading": "General",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg2_chunk1",
+    "text_to_embed": "1.4 Other applicable documents Table 2, titled 'Overview of other applicable documents,' lists various documents relevant to a pump set and describes their contents. The Data sheet contains a Description of the technical data of the pump set. A General arrangement drawing/outline drawing provides a Description of mating and installation dimensions for the pump set, as well as weights. The Hydraulic characteristic curve displays Characteristic curves showing head, flow rate, efficiency and power input. A General assembly drawing¹⁾ is a Sectional drawing of the pump set. Sub-supplier product literature¹⁾ includes Operating manuals and other product literature of accessories and integrated machinery components. Spare parts lists¹⁾ provide a Description of spare parts. Supplementary operating manuals¹⁾ are For example for special accessories. A note below the table advises that For accessories and/or integrated machinery components observe the product literature of the corresponding manufacturer. 1.5 Symbols Table 3, titled 'Symbols used in this manual,' explains the meaning of various symbols employed throughout the document. A checkmark (✓) indicates Conditions which need to be fulfilled before proceeding with the step-by-step instructions. A triangle symbol (▷) denotes Safety instructions. A double arrow pointing right (⇒) signifies the Result of an action. An arrow pointing right with a perpendicular line at the tail (↦) indicates Cross-references. Numbered lists (1., 2.) are used for Step-by-step instructions. Finally, a blue circle with a white exclamation mark (!) represents a Note, providing Recommendations and important information on how to handle the product.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 2,
+      "heading": "Symbols",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg3_chunk1",
+    "text_to_embed": "Safety All the information contained in this section refers to hazardous situations. 2.1 Key to safety symbols/markings Table 4, titled 'Definition of safety symbols/markings,' explains the meaning of various symbols and signal words used for safety purposes. The signal word DANGER, often enclosed in a red rectangle with a white triangle and exclamation mark, indicates a high-risk hazard which, if not avoided, will result in death or serious injury. The signal word WARNING, usually in an orange rectangle with a black triangle and exclamation mark, indicates a medium-risk hazard which, if not avoided, could result in death or serious injury. The signal word CAUTION, typically in a yellow rectangle, indicates a hazard which, if not avoided, could result in damage to the machine and its functions. A yellow triangle with a black exclamation mark signifies a General hazard; in conjunction with one of the signal words (DANGER or WARNING is implied, as CAUTION is associated with machine damage), this symbol indicates a hazard which will or could result in death or serious injury. A yellow triangle with a black lightning bolt symbol indicates an Electrical hazard; in conjunction with one of the signal words, this symbol indicates a hazard involving electrical voltage and identifies information about protection against electrical voltage. A square symbol with gears and a wrench represents Machine damage; in conjunction with the signal word CAUTION, this symbol indicates a hazard for the machine and its functions. 2.2 General This manual contains general installation, operating and maintenance instructions that must be observed to ensure safe pump operation and prevent personal injury and damage to property. The safety information in all sections of this manual must be complied with. This manual must be read and completely understood by the responsible specialist personnel/operators prior to installation and commissioning. The contents of this manual must be available to the specialist personnel at the site at all times. Information attached directly to the pump must always be complied with and be kept in a perfectly legible condition at all times. This applies to, for example: ▪Arrow indicating the direction of rotation ▪Markings for connections ▪Name plate The operator is responsible for ensuring compliance with all local regulations which are not taken into account in this manual. 2.3 Intended use The pump set must only be operated within the operating limits described in the other applicable documents. ▪Only operate pump sets which are in perfect technical condition. ▪Do not operate partially assembled pump sets. ▪Only use the pump set to handle the fluids described in the data sheet or product literature of the pump variant. ▪Never operate the pump set without the fluid to be handled.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 3,
+      "heading": "Safety",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg4_chunk1",
+    "text_to_embed": " ▪Only operate pump sets which are in perfect technical condition. ▪Do not operate partially assembled pump sets. ▪Only use the pump set to handle the fluids described in the data sheet or product literature of the pump variant. ▪Never operate the pump set without the fluid to be handled.▪Observe the limits for continuous operation specified in the data sheet or product literature (Qmin2) and Qmax3)) (to prevent damage such as shaft fracture, bearing failure, mechanical seal damage, etc.). ▪When untreated waste water is handled, the duty points in continuous operation lie within 0.7 to 1.2xQopt4) to minimize the risk of clogging/hardening. ▪Avoid duty points for continuous operation at very low speeds and small flow rates (<0.7 x Qopt4)). ▪Observe the maximum flow rates indicated in the data sheet or product literature (to prevent overheating, mechanical seal damage, cavitation damage, bearing damage, etc). ▪Do not throttle the flow rate on the suction side of the pump set (to prevent cavitation damage). ▪Consult the manufacturer about any use or mode of operation not described in the data sheet or product literature. ▪Only use the respective impeller types in combination with the fluids described below. This image displays different types of impellers used in pumps and describes their suitability for various fluids. The first impeller shown is an Impeller with cutter (impeller type S), which is Suitable for the following fluids: Faeces, domestic sewage and waste water containing long fibers. The second is a Free-flow impeller (impeller type F), which is Suitable for the following fluids: Fluids containing solids and stringy material as well as fluids with entrapped air or gas. The third is a Closed single-vane impeller (impeller type E), Suitable for the following fluids: Fluids containing solids and stringy material. The fourth is a Closed multi-vane impeller (impeller type K), Suitable for the following fluids: Contaminated, solids-laden, non-gaseous fluids without stringy material. Finally, the fifth impeller is an Open, diagonal single-vane impeller (impeller type D), Suitable for the following fluids: Waste water with solid substances and long fibers. 2) Minimum permissible flow rate 3) Maximum permissible flow rate 4) Best efficiency point",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 4,
+      "heading": "Safety",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg5_chunk1",
+    "text_to_embed": "single-vane impeller (impeller type D), Suitable for the following fluids: Waste water with solid substances and long fibers. 2) Minimum permissible flow rate 3) Maximum permissible flow rate 4) Best efficiency point Prevention of foreseeable misuse ▪Observe the minimum flow velocities required to fully open the swing check valves to prevent the reduction of pressure and risk of clogging. (Contact the manufacturer for the required minimum flow velocities/loss coefficients.) ▪Never exceed the permissible operating limits (pressure, temperature, etc.) specified in the data sheet or product literature. ▪Observe all safety information and instructions in this manual. 2.4 Personnel qualification and training All personnel involved must be fully qualified to install, operate, maintain and inspect the machinery this manual refers to. The responsibilities, competence and supervision of all personnel involved in installation, operation, maintenance and inspection must be clearly defined by the operator. Deficits in knowledge must be rectified by means of training and instruction provided by sufficiently trained specialist personnel. If required, the operator can commission the manufacturer/supplier to train the personnel. Training on the pump (set) must always be supervised by technical specialist personnel. 2.5 Consequences and risks caused by non-compliance with these operating instructions ▪Non-compliance with these operating instructions will lead to forfeiture of warranty cover and of any and all rights to claims for damages. ▪Non-compliance can, for example, have the following consequences: – Hazards to persons due to electrical, thermal, mechanical and chemical effects and explosions – Failure of important product functions – Failure of prescribed maintenance and servicing practices – Hazard to the environment due to leakage of hazardous substances 2.6 Safety awareness In addition to the safety information contained in this manual and the intended use, the following safety regulations shall be complied with: ▪Accident prevention, health and safety regulations ▪Explosion protection regulations ▪Safety regulations for handling hazardous substances ▪Applicable standards and laws 2.7 Safety information for the operator/user ▪The operator shall fit contact guards for hot, cold and moving parts and check that the guards function properly. ▪Do not remove any contact guards during operation. ▪Provide the personnel with protective equipment and make sure it is used. ▪Contain leakages (e.g at the shaft seal) of hazardous fluids handled (e.g. explosive, toxic, hot) so as to avoid any danger to persons and the environment. Adhere to all relevant laws.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 5,
+      "heading": "Safety",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg6_chunk1",
+    "text_to_embed": "make sure it is used. ▪Contain leakages (e.g at the shaft seal) of hazardous fluids handled (e.g. explosive, toxic, hot) so as to avoid any danger to persons and the environment. Adhere to all relevant laws. ▪Eliminate all electrical hazards. (In this respect refer to the applicable national safety regulations and/or regulations issued by the local energy supply companies.) ▪If shutting down the pump does not increase potential risk, fit an emergency- stop control device in the immediate vicinity of the pump (set) during pump set installation. 2.8 Safety information for maintenance, inspection and installation work ▪Modifications or alterations of the pump are only permitted with the manufacturer's prior consent. ▪Use only original spare parts or parts authorized by the manufacturer. The use of other parts can invalidate any liability of the manufacturer for resulting damage. ▪The operator ensures that all maintenance, inspection and installation work is performed by authorized, qualified specialist personnel who are thoroughly familiar with the manual. ▪Only carry out work on the pump (set) during standstill of the pump. ▪The pump casing must have cooled down to ambient temperature. ▪Pump pressure must have been released and the pump must have been drained. ▪When taking the pump set out of service always adhere to the procedure described in the manual. (⇨ Section 6.3 Page 37) ▪Decontaminate pumps which handle fluids posing a health hazard. ▪As soon as the work is completed, re-install and/or re-activate any safety-relevant and protective devices. Before returning the product to service, observe all instructions on commissioning. (⇨ Section 6.1 Page 34) 2.9 Unauthorized modes of operation Never operate the pump (set) outside the limits stated in the data sheet and in this manual. The warranty relating to the operating reliability and safety of the pump (set) supplied is only valid if the equipment is used in accordance with its intended use. 2.10 Explosion protection Special conditions apply to the operation of explosion-proof pumps. ▪The explosion-proof status of the pump set is only assured if the pump set is used in accordance with its intended use. ▪The limits stated in the data sheet and on the name plate must not be exceeded under any circumstances. ▪Correct monitoring of the motor temperature is imperative to ensure explosion protection. ▪Observe the wiring diagrams. ▪Never operate an explosion-proof pump set without temperature monitoring. ▪Modifications or alteration of the pump set may affect explosion protection and are only permitted after consultation with the manufacturer. ▪Only original spare parts and accessories authorized by the manufacturer must be used for explosion-proof pumps.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 6,
+      "heading": "Safety",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg7_chunk1",
+    "text_to_embed": "3 Transport/Temporary Storage/Disposal 3.1 Checking the condition upon delivery 1. On transfer of goods, check each packaging unit for damage. 2. In the event of in-transit damage, assess the exact damage, document it and notify KSB or the distributor and the insurance company about the damage in writing immediately. 3.2 Transport DANGER Improper transport Danger to life from falling parts! Damage to the pump set! ▷ Use the attachment point provided (eyebolt, lifting lug or bail) for attaching lifting accessories. ▷ Never suspend the pump set by its power cable. ▷ Never use the chains or lifting ropes included in KSB's scope of supply for lifting loads other than the KSB product supplied. ▷ Securely attach the lifting ropes or chains to the pump and crane. Transport the pump set as illustrated. WARNING Incorrect positioning Personal injury and damage to property! ▷ Position the pump set vertically with the motor on top. ▷ Use appropriate means to secure the pump set against overturning and tipping over. ▷ Refer to the weights given in the data sheet/on the name plate.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 7,
+      "heading": "Transport/Temporary Storage/Disposal",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg8_chunk1",
+    "text_to_embed": "WARNING Improper placing of pump sets in vertical/horizontal position Personal injury and damage to property! ▷ Use appropriate means to secure the pump set against overturning or tipping over. ▷ Use two lifting devices when handling large pump sets, if possible (using the attachment point provided on the motor and the discharge nozzle). ▷ Secure power cables against falling. ▷ Use additional supports for the transport holder to secure the pump set against overturning. ▷ Maintain adequate safety distance during lifting operations. WARNING Improper lifting/moving of heavy assemblies or components Personal injury and damage to property! ▷ Use suitable transport devices, hoisting equipment and lifting tackle to move heavy assemblies or components. 3.3 Storage/Preservation If commissioning is to take place some time after delivery, we recommend that the following measures be taken: CAUTION Improper storage Damage to the power cables! ▷ Support the power cables at the cable entry to prevent permanent deformation. ▷ Only remove the protective caps from the power cables at the time of installation. CAUTION Damage during storage by humidity, dirt or vermin Corrosion/contamination of the pump (set)! ▷ For outdoor storage cover the pump (set) or the packaged pump (set) and accessories with waterproof material. CAUTION Wet, contaminated or damaged openings and connections Leakage or damage to the pump set! ▷ Only remove caps/covers from the openings of the pump set at the time of installation. Table 5, titled 'Ambient conditions for storage,' specifies the recommended environmental conditions for storing the product. For Relative humidity, the Value should be between 5 % and 85 %, and it should be non-condensing. The Ambient temperature for storage should be between -4 °F and 158 °F, which is equivalent to -20 °C to +70 °C. ▪Store the pump set under dry and vibration-free conditions, if possible in its original packaging. 1. Spray-coat the inside wall of the pump casing, and in particular the impeller clearance areas, with a preservative. 2. Spray the preservative through the suction and discharge nozzles. It is advisable to then close the pump nozzles (e.g. with plastic caps or similar).",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 8,
+      "heading": "Transport/Temporary Storage/Disposal",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg9_chunk1",
+    "text_to_embed": "NOTE Observe the manufacturer's instructions for application/removal of the preservative. 3.4 Return to supplier 1. Drain the pump as per operating instructions. (⇨ Section 7.3 Page 45) 2. Always flush and clean the pump, particularly if it has been used for handling noxious, explosive, hot or other hazardous fluids. 3. If the fluids handled by the pump (set) leave residues which might lead to corrosion damage when coming into contact with atmospheric humidity, or which might ignite when coming into contact with oxygen, the pump set must be neutralized, and anhydrous inert gas must be blown through the pump for drying purposes. 4. Always complete and enclose a certificate of decontamination when returning the pump (set). Always indicate any safety and decontamination measures taken. (⇨ Section 10 Page 73) NOTE If required, a blank certificate of decontamination can be downloaded from the KSB web site at: www.ksb.com/certificate_of_decontamination 3.5 Disposal WARNING Fluids posing a health hazard and/or hot fluids Hazard to persons and the environment! ▷ Collect and properly dispose of flushing liquid and any residues of the fluid handled. ▷ Wear safety clothing and a protective mask, if required. ▷ Observe all legal regulations on the disposal of fluids posing a health hazard. 1. Dismantle the pump (set). Collect greases and other lubricants during dismantling. 2. Separate and sort the pump materials, e.g. by: - Metals - Plastics - Electronic waste - Greases and other lubricants 3. Dispose of materials in accordance with local regulations or in another controlled manner.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 9,
+      "heading": "Transport/Temporary Storage/Disposal",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg10_chunk1",
+    "text_to_embed": "4 Description of the Pump (Set) 4.1 General description Pump for handling untreated waste water containing long fibers and solid substances, fluids containing air or gas as well as raw, activated and digested sludge. (⇨ Section 2.3 Page 8) 4.2 Designation Example: KRTK 150-315/164UG-S Table 6, titled 'Key to the designation ' explains the different codes and what they represent in a product's designation. The Code KRT stands for the Type series. The Code K represents the Impeller type, with an example given that K stands for channel impeller. The Code 150 signifies the Nominal discharge nozzle diameter (DN) in mm. The Code 315 indicates the Maximum nominal impeller diameter in mm. The Code 16 denotes the Motor size. The Code 4 specifies the Number of poles. The Code U refers to the Motor version, for example, U stands for standard version. The Code G represents the Material variant, with G indicating a complete pump in grey cast iron. Lastly, the Code S denotes the Installation type, with S meaning stationary wet installation without cooling system. ",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 10,
+      "heading": "Description of the Pump (Set)",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg11_chunk1",
+    "text_to_embed": "4.4 Design details Design ▪Fully floodable submersible motor pump ▪Not self-priming ▪Close-coupled design Impeller type ▪Various, application-oriented impeller types (⇨ Section 2.3 Page 8) Shaft seal ▪Two bi-directional mechanical seals in tandem arrangement, with liquid reservoir ▪Pumps with reinforced bearings: with leakage chamber Standard bearings ▪Grease-packed bearings sealed for life ▪Maintenance-free Reinforced bearings Motor-end bearing: ▪Grease-packed bearings sealed for life ▪Maintenance-free Pump-end bearings: ▪Grease-packed bearings sealed for life ▪Can be re-lubricated The following hydraulic system/motor combinations have reinforced bearings: Table 7, titled 'Reinforced bearings,' shows which combinations of Hydraulic system sizes and Motor size and number of poles require reinforced bearings, indicated by an 'x'. The hydraulic system sizes listed are D 150-400, D 150-401, D 200-400, D 250-401, and D 300-400. The motor size and number of poles are listed as 326, 406, 506, and 268. For Hydraulic system size D 150-400, reinforced bearings are needed for motor size and number of poles 326, but not for 406, 506, or 268 (indicated by dashes). For Hydraulic system size D 150-401, reinforced bearings are required for motor sizes and number of poles 326, 406, and 506, but not for 268. For Hydraulic system size D 200-400, reinforced bearings are needed for motor sizes and number of poles 326, 406, and 506, but not for 268. For Hydraulic system size D 250-401, reinforced bearings are required for motor sizes and number of poles 326, 406, and 506, but not for 268. Finally, for Hydraulic system size D 300-400, reinforced bearings are not needed for motor sizes and number of poles 326, 406, or 506, but are required for 268. Drive ▪Three-phase asynchronous squirrel-cage motor Motors integrated in explosion-proof pump sets are supplied in Explosionproof Class I Division 1, Groups C&D, T3. 4.5 Types of installation Two design variants are available, depending on the installation type: ▪Stationary wet installation (installation type S) ▪Transportable model for wet installation (installation type P) The pump set is designed for continuously submerged operation. The motor is cooled by the fluid handled on the motor surface. Operation with the motor outside the fluid handled is possible for short periods.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 11,
+      "heading": "Description of the Pump (Set)",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg12_chunk1",
+    "text_to_embed": "4.6 Configuration and function DESIGN The pump is designed with an axial fluid inlet and a radial outlet. The hydraulic system sits on the extended motor shaft. The shaft runs in common bearings. FUNCTION The fluid enters the pump axially via the suction nozzle (6) and is accelerated outward by the rotating impeller (7). In the flow passage of the pump casing the kinetic energy of the fluid is converted into pressure energy. The fluid is pumped to the discharge nozzle (2), where it leaves the pump. The casing wear ring (1) prevents any fluid from flowing back from the casing into the suction nozzle. At the rear side of the impeller, the shaft (4) enters the casing via the discharge cover (3). The shaft passage through the cover is sealed towards the atmosphere with a shaft seal (8). The shaft runs in rolling element bearings (9 and 10), which are supported by a bearing bracket (5) connected to the pump casing and/or discharge cover. Sealing The pump is sealed by two bi-rotational mechanical seals in tandem arrangement. A lubricant reservoir in-between the seals ensures cooling and lubrication of the mechanical seals. 4.7 Scope of supply Depending on the model, the following items are included in the scope of supply: Stationary wet installation (installation type S) ▪Pump set complete with power cables ▪Claw with sealing material and mounting elements ▪Lifting rope or chain ▪Mounting bracket with mounting elements",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 12,
+      "heading": "Description of the Pump (Set)",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg13_chunk1",
+    "text_to_embed": "scope of supply: Stationary wet installation (installation type S) ▪Pump set complete with power cables ▪Claw with sealing material and mounting elements ▪Lifting rope or chain ▪Mounting bracket with mounting elements ▪Duckfoot bend with mounting elements ▪Guiding equipment (guide rails are not included in KSB's scope of supply) Transportable model for wet installation (installation type P) ▪Pump set complete with power cables ▪Foot plate or pump stool with mounting elements ▪Lifting rope or chain NOTE A separate name plate is included in KSB's scope of supply. This name plate must be attached in a clearly visible position outside the place of installation, e.g. at the control panel, pipeline or mounting bracket. 4.8 Dimensions and weights For dimensions and weights please refer to the general arrangement drawing/outline drawing or data sheet of the pump set.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 13,
+      "heading": "Description of the Pump (Set)",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg14_chunk1",
+    "text_to_embed": "Installation at Site 5.1 Safety regulations DANGER Improper installation in potentially explosive atmospheres Damage to the pump set! ▷ Comply with the applicable local explosion protection regulations. ▷ Observe the information given in the data sheet and on the pump/motor name plates. DANGER Persons in the tank during pump operation Electric shock! ▷ Never start up the pump set when there are persons in the tank. WARNING Impermissible solid objects (tools, screws/bolts or similar) in the pump sump/inlet tank during pump start-up Personal injury and damage to property! ▷ Check the pump sump/inlet tank for impermissible solid objects before flooding, and remove, if necessary. 5.2 Checks to be carried out prior to installation 5.2.1 Checking the operating data Before installing the pump set, verify that the name plate data matches the data given in the purchase order and the site system data. 5.2.2 Preparing the place of installation Place of installation for stationary models WARNING Installation on mounting surfaces which are unsecured and cannot support the load Personal injury and damage to property! ▷ Use a concrete with a minimum compressive strength of 3000 psi [Class C25/30 in exposure class XC1 to EN 206-1]. ▷ The mounting surface must have set and must be completely horizontal and even. ▷ Observe the weights indicated. Any resonances at the usual excitation frequencies (1x and 2x rotational frequency, rotational noise) must be prevented both in the foundation and in the connected piping, as such frequencies may cause extreme vibrations. 1. Check the structural requirements. All structural work required must have been prepared in accordance with the dimensions stated in the outline drawing/general arrangement drawing.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 14,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg15_chunk1",
+    "text_to_embed": "Place of installation for transportable models WARNING Incorrect positioning Personal injury and damage to property! ▷ Position the pump set vertically with the motor on top. ▷ Use appropriate means to secure the pump set against overturning and tipping over. ▷ Refer to the weights given in the data sheet/on the name plate. Any resonances at the usual excitation frequencies (1x and 2x rotational frequency, rotational noise) must be prevented both in the foundation and in the connected piping, as such frequencies may cause extreme vibrations. 1. Check the structural requirements. All structural work required must have been prepared in accordance with the dimensions stated in the outline drawing/general arrangement drawing. 5.2.3 Checking the lubricant level The lubricant reservoirs have been filled with an environmentally-friendly, non-toxic lubricant at the factory. 1. Position the pump set as shown. 2. Unscrew screw plug 903.03 with joint ring 411.03. ⇨The lubricant level must reach the filler opening. 3. If the lubricant level is lower, top up lubricant through the filler opening until the lubricant reservoir overflows. (⇨ Section 7.2.2.1.4 Page 43) 4. Close screw plug 903.03 with joint ring 411.03. 5.2.4 Checking the direction of rotation DANGER Pump set running dry Explosion hazard! ▷ Check the direction or rotation of explosion-proof pump sets outside potentially explosive atmospheres. WARNING Hands or objects inside the pump casing Risk of injuries, damage to the pump! ▷ Never insert your hands or any other objects into the pump. ▷ Check that the inside of the pump is free from any foreign objects. ▷ Take suitable precautions (e.g. wear safety goggles, etc).",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 15,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg16_chunk1",
+    "text_to_embed": "WARNING Improper positioning of pump set when checking the direction of rotation Personal injury and damage to property! ▷ Use appropriate means to secure the pump set against overturning or tipping over. CAUTION Pump set running dry Increased vibrations! Damage to mechanical seals and bearings! ▷ Never operate the pump set outside the fluid to be handled for more than 60 seconds. ✓ The pump set is connected to the power supply. (⇨ Section 5.4.2 Page 32) 1. Start the pump set and stop it again immediately to determine the motor's direction of rotation. 2. Check the direction of rotation. Impeller rotation must be anti-clockwise (seen from the pump mouth end). On some pump casings, the direction of rotation is marked by an arrow. 3. If the impeller is running in the wrong direction of rotation, check the electrical connection of the pump and the control system, if necessary. 4. Disconnect the pump set from the power supply and make sure it cannot be switched on unintentionally. 5.3 Installing the pump set Always refer to and comply with the general arrangement drawing/outline drawing when installing the pump set. 5.3.1 Stationary wet installation 5.3.1.1 Fastening the duckfoot bend Depending on the pump size, the duckfoot bend is either fastened with chemical anchors and/or foundation rails.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 16,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg17_chunk1",
+    "text_to_embed": "Fastening the duckfoot bend with chemical anchors 1. Position duckfoot bend 72-1 at the bottom of the tank/well. 2. Fit chemical anchors 90-3.38. 3. Bolt duckfoot bend 72-1 to the floor using chemical anchors 90-3.38. Table 9, titled 'Curing times of mortar cartridge,' provides the required time for a mortar cartridge to cure based on the surrounding Floor temperature. For a Floor temperature between 23 °F to 32 °F (equivalent to -5 °C to 0 °C), the Curing time is 240 minutes. When the Floor temperature is between 32 °F to 50 °F (0 °C to +10 °C), the curing time is 45 minutes. At a Floor temperature between 50 °F to 68 °F (+10 °C to +20 °C), the curing time is 20 minutes. For Floor temperatures greater than 68 °F (+20 °C), the required curing time is 10 minutes. 5.3.1.2 Connecting the piping DANGER Impermissible loads acting on the flange of the duckfoot bend Danger to life from leakage of hot, toxic, corrosive or flammable fluids! ▷ Do not use the pump as an anchorage point for the piping. ▷ Anchor the pipelines in close proximity to the pump and connect them without transmitting any stresses or strains. ▷ Observe the permissible flange loads. ▷ Take appropriate measures to compensate thermal expansion of the piping. NOTE When the pump set is used for draining low-level building areas, fit a swing check valve into the discharge line to avoid backflow from the sewer system. Fig. 6: Fastening the duckfoot bend t = hreq. tfix SW M do l Hex WAF Fig. 7: Dimensions 5) Mounting accessories of respective manufacturer required",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 17,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg18_chunk1",
+    "text_to_embed": "CAUTION Critical speed Increased vibrations! Damage to mechanical seals and bearings! ▷ In the case of longer riser pipes, fit a swing check valve to prevent the pump from excessively running in reverse after it is switched off. Choose the position of the swing check valve to allow proper venting. 5.3.1.3 Fitting the guide wire arrangement The pump set is guided into the sump or tank along two parallel, tightly stretched guide wires made of stainless steel. It attaches itself automatically to the duckfoot bend which has been fitted to the floor. NOTE Should site conditions/piping layout, etc., require the wire to run off the vertical, do not exceed a maximum angle of 5° to ensure reliable fitting and guiding of the pump set.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 18,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg19_chunk1",
+    "text_to_embed": "Fitting the mounting bracket 1. Fasten mounting bracket 894 to the edge of the sump opening with steel anchor bolts 90-3.37 and tighten the anchor bolts to a tightening torque of 7.4 lbf ft [10 Nm]. 2. Push clamping piece 571 through the holes of suspension bracket 572 and fasten it with nuts 920.37. 3. Fasten threaded bolt 904 with the pre-assembled clamping arrangement to the mounting bracket with nut 920.36. Do not tighten nut 920.36 too much; allow sufficient play for subsequently tensioning the guide wire. Inserting the guide wire 1. Lift clamping piece 571 and insert one end of the guide wire. 2. Run wire 59-24.01 around duckfoot bend 72-1 and back again to guide wire suspension bracket 572 and insert it into clamping piece 571. 3. Manually tension wire 59-24.01 and secure it by means of hexagon nuts 920.37. 4. Pull the wire taut by tightening hexagon nut(s) 920.36 on the upper side of the mounting bracket. Refer to the table \"Guide wire tension\". 5. Secure the nut(s) with a second hexagon nut. 6. The loose wire ends at guide wire suspension bracket 572 can either be twisted into a ring or the end can be cut off. After length adjustment, tape the ends to avoid fraying. 7. Attach hook 59-18 to mounting bracket 894 for attaching the lifting chain/rope at a later stage. Table 11, titled 'Guide wire tension,' specifies the required tightening torque and the resulting guide wire tension for different DN (Nominal Diameter) sizes. For DN sizes 50, 80, 100, 150, and 200, the required Tightening torque M_A is 10.3 lbf ft, which is equivalent to 14 Nm. This results in a Guide wire tension P of 1349 lbf, equivalent to 6000 N. For DN sizes 250 and 300, the required Tightening torque M_A is 22.1 lbf ft, which is 30 Nm. This results in a higher Guide wire tension P of 2248 lbf, equivalent to 10000 N.  5.3.1.4 Fitting the guide rail arrangement The pump set is guided into the sump or tank along two vertical guide rails. It attaches itself automatically to the duckfoot bend which has been fitted to the floor. NOTE The guide rails are not included in KSB's scope of supply. Select guide rail materials which are suitable for the fluid handled or as specified by the operator. Observe the following dimensions for the guide rails: ",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 19,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg20_chunk1",
+    "text_to_embed": "Table 12, titled 'Guide rail dimensions,' provides specifications for the outside diameter and wall thickness of guide rails used in hydraulic systems of different sizes. For hydraulic system sizes from DN 40 up to DN 150, the Outside diameter is 2.36 inches, which is 60 mm. The Wall thickness ranges from a Minimum of 0.079 inches (2 mm) to a Maximum of 0.197 inches (5 mm). For hydraulic system sizes from DN 200 up to DN 700, the Outside diameter is 3.5 inches, which is 89 mm. The Wall thickness for this range is a Minimum of 0.118 inches (3 mm) and a Maximum of 0.236 inches (6 mm). There is a superscript 6) next to 'Wall thickness', indicating there might be a footnote with further details, but the footnote itself is not included in the image. Fitting the mounting bracket 1. Fasten mounting bracket 894 to the edge of the sump opening with steel anchor bolts 90-3.37 and tighten the anchor bolts to a tightening torque of 7.4 lbf ft [10 Nm]. Observe the hole pattern for the anchor bolts. (See outline drawing.) Fitting the guide rails CAUTION Improper installation of the guide rails Damage to the guide rail arrangement! ▷ Always adjust the guide rails so that they are in a perfectly vertical position. 1. Place rails 710 onto the conical bosses provided on duckfoot bend 72-1 and position vertically. 2. Mark the length of rails 710 (up to the lower edge of the mounting bracket), taking into account the adjusting range of the slotted holes in mounting bracket 894. 3. Shorten rails 710 with a 90° cut to the pipe axis. Debur the rails inside and outside. 4. Insert mounting bracket 894 with elastic sleeves 520.37 into guide rails 710 until the mounting bracket rests on the rail ends. 5. Tighten nuts 920.37. This pulls clamping sleeves 81-51.37 upwards and expands sleeves 520.37 against the inside pipe diameter. 6. Lock nuts 920.37 with a second nut and secure with Loctite 243. NOTE For installation depths greater than 19.7 ft [6 m], the scope of supply may include brackets as a middle support for the guide rails. The mounting brackets also serve as spacers between the two guide rails. 90-3.37 894 Fig. 11: Fitting the mounting bracket 920.37 894 520.37 81-51.37 901.37 710 Fig. 12: Fitting the guide rails",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 20,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg21_chunk1",
+    "text_to_embed": "Fitting the middle support 1. Measure the inside diameter of the guide rails. 2. Expand elastic sleeves 520.39 with clamping sleeves 81-51.39 to the inside diameter of the guide rails by tightening nuts 920.39. 3. Slip the guide rails onto the sleeves and check whether there is a tight fit between the guide rails and the sleeves. 4. Secure the fasteners with locknuts. 5. Proceed to fit the guide rails. 5.3.1.5 Preparing the pump set Fitting the claw 1. Fasten claw 732 to the discharge flange with studs 902.35, discs 550.35 and nuts 920.35. Observe the tightening torques. (⇨ Section 7.6 Page 55) 2. Fit profile joint 410 or round cord 99-6 into the groove of the claw. This will seal the duckfoot bend/pump connection. Attaching the lifting chain/rope Attaching the lifting chain/rope - stationary wet installation Stationary wet installation 1. Attach the lifting chain or rope to the lug/eyebolt/bail on the pump set on the opposite side of the discharge nozzle. This attachment point achieves a forward inclination of the pump set towards the discharge nozzle, which allows the pump claw to hook onto the duckfoot bend. Attaching the lifting chain/rope - transportable model for wet installation Transportable model for wet installation 1. Attach the lifting chain or rope to the lug/eyebolt/bail on the pump set on the discharge nozzle side.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 21,
+      "heading": "",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg22_chunk1",
+    "text_to_embed": "5.3.1.6 Installing the pump set NOTE Make sure the pump set with the pre-assembled claw can easily be slipped over the mounting bracket, threaded onto the guide rails and lowered down. If required, alter the position of the crane during installation. 1. Guide the pump set over the suspension bracket/mounting bracket, thread it onto the guide wires/rails and slowly lower it down. The pump set attaches itself to duckfoot bend 72-1. 2. Attach the lifting chain/rope to hook 59-18 at the mounting bracket. 5.3.2 Transportable model for wet installation Fitting the foot plate or pump stool Fit the foot plate or pump stool before installing the pump. Tighten the screws/bolts as specified, see table “Tightening torques”. (⇨ Section 7.6 Page 55)",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 22,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg23_chunk1",
+    "text_to_embed": "Attaching the lifting chain/rope 1. Attach the lifting chain or rope to the lug/eyebolt on the discharge nozzle side (see illustration on the left and table \"Types of attachment\"). Connecting the piping The discharge nozzle can be connected to rigid or flexible pipes. 5.4 Electrical system 5.4.1 Information for planning the control system For the electrical connection of the pump set observe the wiring diagram contained in the Annex. The pump set is supplied with power cables; it is wired for DOL starting. Star-delta starting is also possible. NOTE When laying a cable between the control system and the pump set's connection point, make sure to have a sufficient number of cores for the sensors. A minimum cross-section of AWG 15 [1.5 mm²] is required. The motors can be connected to electrical low-voltage grids with nominal voltages and voltage tolerances to IEC 38 or other grids or power supply facilities with maximum nominal voltage tolerances of ± 10 %. 5.4.1.1 Overload protection 1. Protect the pump set against overloading by a thermal time-lag overload protection device in accordance with IEC 947 and local regulations. 2. Set the overload protection device to the rated current specified on the name plate. (⇨ Section 4.3 Page 15)",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 23,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg24_chunk1",
+    "text_to_embed": "5.4.1.2 Level control DANGER Pump set running dry Explosion hazard! ▷ Never allow an explosion-proof pump set to run dry. CAUTION Fluid level below the specified minimum Damage to the pump set by cavitation! ▷ Never allow the fluid level to drop below the specified minimum. Automatic operation of the pump set in a tank requires the use of level control equipment. Observe the minimum fluid level. (⇨ Section 6.2.4.2 Page 36) 5.4.1.3 Frequency inverter operation The pump set is suitable for frequency inverter operation as per IEC 60034-17. DANGER Operation outside the permitted frequency range Explosion hazard! ▷ Never operate an explosion-proof pump set outside the specified range. DANGER Incorrect setting of frequency inverter current limit Explosion hazard! ▷ Set the current limit to maximum 1.2 times the rated current indicated on the name plate.  Selection: When selecting a frequency inverter, check the following details: ▪Data provided by the manufacturer ▪Electrical data of the pump set, particularly the rated current Start-up: ▪Ensure short start ramps (maximum 5 seconds). ▪Only start speed-controlled operation after 2 minutes at the earliest. Pump start-up with long start ramps and low frequency may cause clogging. Operation: Observe the following limits when operating the pump set via frequency inverter: ▪Only utilize up to 95 % of the motor power rating P2 indicated on the name plate. (⇨ Section 4.3 Page 15) ▪Frequency range 25-60 Hz (⇨ Section 2.3 Page 8) Electromagnetic compatibility Frequency inverter operation produces RFI emissions whose level varies depending on the inverter used (type, interference suppression, make). To prevent the drive system, consisting of a submersible motor and a frequency inverter, from exceeding any given limits always observe the EMC information provided by the inverter manufacturer. If the inverter manufacturer recommends a shielded power cable, make sure to use a submersible motor pump with shielded power cables. Interference immunity: The submersible motor pump generally meets interference immunity requirements. For monitoring the sensors installed the operator must ensure sufficient interference immunity by appropriately selecting and laying the power cables in the plant. No modifications are required on the power/control cable of the submersible motor pump. Suitable analyzing devices must be selected. This applies in particular to the leakage sensor inside the motor.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 24,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg25_chunk1",
+    "text_to_embed": "5.4.1.4 Sensors DANGER Operating an incompletely connected pump set Damage to the pump set! ▷ Never start up a pump set with incompletely connected power cables or non- operational monitoring devices. CAUTION Incorrect connection Damage to the sensors! ▷ Observe the limits stated in the following sections of this manual when connecting the sensors. The pump set is equipped with sensors designed to prevent hazards and damage to the pump set. NOTE Reliable and safe operation of the pump within the scope of our warranty is only possible if the sensor signals are properly analyzed as stipulated in this manual. All sensors are located inside the pump set and are connected to the power cable. For information on wiring and core identification please refer to the wiring diagrams. The individual sensors and the limit values to be set are described in the following sections. 5.4.1.4.1 Motor temperature DANGER Insufficient cooling Explosion hazard! Winding damage! ▷ Never operate a pump set without operational temperature monitoring. ▷ For explosion-proof pump sets use a thermistor tripping unit with manual reset. CAUTION Incorrect wiring Winding damage! ▷ Never rely on the PTC thermistors alone for temperature monitoring. The pump set features double monitoring of the winding temperature. Two bimetal switches (terminals 21 and 22, max. 250 V AC/2A) serve as temperature control devices which open when the winding temperature is too high. Opening of the contacts must result in the pump set cutting out. Automatic re-starting is permissible. For explosion-proof pump sets, the three additional, series-connected (PTC) thermistors with terminals 10 and 11 must be used in conjunction with a thermistor tripping unit with manual reset.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 25,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg26_chunk1",
+    "text_to_embed": "5.4.1.4.2 Leakage inside the motor An electrode fitted inside the motor monitors the winding and connection space for leakage. This electrode must be connected to an electrode relay (core identification 9). Tripping of the electrode relay must result in the pump set cutting out. The electrode relay (K1) must meet the following requirements: ▪Sensor circuit 10 to 30V ~ ▪Tripping current 0.5 to 3 mA (equivalent to a tripping resistance of 3 to 60 kΩ) 5.4.1.4.3 Mechanical seal leakage (pump sets with reinforced bearings only) The chamber for mechanical seal leakage is equipped with a float switch (core identification 3 and 4). The contact (maximum 250 V~/2 A) opens when leakage is detected in the leakage chamber. Opening of the contact shall trigger an alarm signal. (⇨ Section 9.2 Page 68) 5.4.1.4.4 Bearing temperature As an option, the pump set can be supplied with temperature monitoring in the area of the lower bearing assembly. Check in the data sheet whether the pump set is equipped with bearing temperature monitoring. The bearing temperature sensor is a PT100 resistance thermometer. It has to be connected to a temperature control device with a PT100 input and 2 separate outputs for two different switching points (sensor circuit maximum 6 V/2 mA). Set the following limits: ▪Alert at 230 °F [110 ℃] ▪Cut-out of the pump set at 266 °F [130 ℃]",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 26,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg27_chunk1",
+    "text_to_embed": "5.4.2 Electrical connection DANGER Work on the pump set by unqualified personnel Danger of death from electric shock! ▷ Always have the electrical connections installed by a trained electrician. ▷ Observe regulation IEC 60364 as well as any regional regulations. WARNING Incorrect connection to the mains Damage to the mains network, short circuit! ▷ Observe the technical specifications of the local energy supply companies. CAUTION Improper routing of power cable Damage to the power cables! ▷ Never move the power cables at temperatures below -13 °F [-25 °C]. ▷ Never kink or crush the power cables. ▷ Never suspend the pump set by the power cables. CAUTION Motor overload Damage to the motor! ▷ Protect the motor by a thermal time-lag overload protection device in accordance with IEC 947 and local regulations. For electrical connection observe the wiring diagrams (⇨ Section 9.2 Page 68) in the Annex and the information on planning the control system (⇨ Section 5.4.1 Page 28). The pump set is supplied complete with power cables. Always use all cables provided and connect all marked cores of the control cable. DANGER Incorrect connection Explosion hazard! ▷ The connection point of the cable ends must be located outside hazardous areas or in an area approved for electrical equipment. DANGER Operating an incompletely connected pump set Explosion hazard! Damage to the pump set! ▷ Never start up a pump set with incompletely connected power cables or non- operational monitoring devices. DANGER Connection of damaged power cables Danger of death from electric shock! ▷ Check the power cables for damage before connecting them to the power supply. ▷ Never connect damaged power cables.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 27,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg28_chunk1",
+    "text_to_embed": "CAUTION Flow-induced motion Damage to the power cable! ▷ Run the power cable upwards without slack. 1. Run the power cables directly upwards without slack, and fasten. 2. Only remove the protective caps from the power cables immediately before connecting the cables. 3. If necessary, adjust the length of the power cables to the site requirements. 4. After shortening the cables, correctly re-affix the markings of the individual cores at the cable ends. The pump set does not have an external PE connection (risk of corrosion). DANGER Incorrect connection Explosion hazard! ▷ Explosion-proof pump sets installed in a tank must never be retrofitted with an external potential equalization connection! DANGER Touching the pump set during operation Electric shock! ▷ Make sure that the pump set cannot be touched during operation.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 28,
+      "heading": "Installation at Site",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg29_chunk1",
+    "text_to_embed": "6 Commissioning/Start-up/Shutdown 6.1 Commissioning/start-up 6.1.1 Prerequisites for commissioning/start-up Before commissioning/starting up the pump set, make sure that the following conditions are met: ▪The pump set has been properly connected to the power supply and is equipped with all protection devices. ▪The pump has been primed with the fluid to be handled. ▪The direction of rotation has been checked. (⇨ Section 5.2.3 Page 20) ▪The lubricant has been checked. ▪After prolonged shutdown of the pump (set), the required activities have been carried out (⇨ Section 6.4 Page 38). DANGER Persons in the tank during pump operation Electric shock! ▷ Never start up the pump set when there are persons in the tank. 6.1.2 Start-up DANGER Persons in the tank during pump operation Electric shock! ▷ Never start up the pump set when there are persons in the tank. CAUTION Re-starting while motor is still running down Damage to the pump set! ▷ Do not re-start the pump set before it has come to a standstill. ▷ Never start the pump set while the pump is running in reverse. ✓ The fluid level is sufficiently high. CAUTION Start-up against a closed shut-off element Increased vibrations! Damage to mechanical seals and bearings! ▷ Never start up the pump set against a closed shut-off element. 1. Fully open the discharge line shut-off element, if any. 2. Start up the pump set.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 29,
+      "heading": "Commissioning/Start-up/Shutdown",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg30_chunk1",
+    "text_to_embed": "6.2 Operating limits DANGER Non-compliance with operating limits Damage to the pump set! ▷ Comply with the operating data indicated in the data sheet. ▷ Avoid operation against a closed shut-off element. ▷ Never operate the pump set at ambient or fluid temperatures exceeding those specified in the data sheet or on the name plate. ▷ Never operate the pump set outside the limits specified below. 6.2.1 Frequency of starts CAUTION Excessive frequency of starts Damage to the motor! ▷ Never exceed the specified frequency of starts. CAUTION Re-starting while motor is still running down Damage to the pump set! ▷ Do not re-start the pump set before it has come to a standstill. ▷ Never start the pump set while the pump is running in reverse. To prevent high temperature increases in the motor and excessive loads on the motor, seals and bearings, the frequency of starts shall not exceed 10 start-ups per hour and 5000 start-ups per year. These values apply to mains start-up (DOL or with star-delta contactor, autotransformer, soft starter). These limits do not apply to frequency inverter operation. 6.2.2 Supply voltage DANGER Non-compliance with permissible supply voltage tolerances Explosion hazard! ▷ Never operate an explosion-proof pump (set) outside the specified range. The maximum permissible deviation in supply voltage is ±10% of the rated voltage. The voltage difference between the individual phases must not exceed 1%. 6.2.3 Frequency inverter operation DANGER Operation outside the permitted frequency range Explosion hazard! ▷ Never operate an explosion-proof pump set outside the specified range. Frequency inverter operation of the pump set is permitted in the frequency range from 25 to 60 Hz.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 30,
+      "heading": "Commissioning/Start-up/Shutdown",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg31_chunk1",
+    "text_to_embed": "CAUTION Pumping solids-laden fluids at reduced speed Increased wear and clogging! ▷ Never operate the pump set with flow velocities below approx. 25 in./s [0.7 m/s] in horizontal pipes and approx. 45 in./s [1.2 m/s] in vertical pipes. 6.2.4 Fluid handled 6.2.4.1 Temperature of the fluid handled The pump set is designed for transporting liquids. The pump set is not operational under freezing conditions. CAUTION Danger of frost/freezing Damage to the pump set! ▷ Drain the pump set or protect it against freezing. Refer to the maximum permissible fluid and ambient temperature indicated on the name plate and in the data sheet. 6.2.4.2 Minimum level of fluid handled DANGER Pump set running dry Explosion hazard! ▷ Never allow an explosion-proof pump set to run dry. CAUTION Fluid level below the specified minimum Damage to the pump set by cavitation! ▷ Never allow the fluid level to drop below the specified minimum. The pump set is designed for continuously submerged operation. This condition has to be fulfilled for the motor to be cooled sufficiently. Ready for operation: The pump set is ready for operation as soon as the motor is fully submerged (dimension A). Exact dimensions see general arrangement drawing/outline drawing. The pump can be operated at a lower fluid level for short periods. If the motor is not sufficiently cooled, an internal temperature monitoring device will trip the pump set and automatically re-start it after the motor has cooled down. The fluid level must not drop below the specified minimum (dimension B). Exact dimensions see general arrangement drawing/outline drawing.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 31,
+      "heading": "Commissioning/Start-up/Shutdown",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg32_chunk1",
+    "text_to_embed": "NOTE Compliance with dimension B does not guarantee trouble-free operation of the pump set. Depending on the pump's duty point, higher fluid levels may be required. Observe the NPSH values indicated in the characteristic curve (see hydraulic characteristic curves). 6.2.4.3 Density of the fluid handled The power input of the pump increases in proportion to the density of the fluid handled. CAUTION Impermissibly high density of the fluid handled Motor overload! ▷ Observe the information on fluid density in the data sheet. ▷ Make sure the motor has sufficient power reserves. 6.2.4.4 Abrasive fluids Do not exceed the maximum permissible solids content specified in the data sheet. When the pump handles fluids containing abrasive substances, increased wear of the hydraulic system and the shaft seal is to be expected. In this case, halve the intervals commonly recommended for servicing and maintenance. 6.3 Shutdown/storage/preservation 6.3.1 Measures to be taken for shutdown The pump set remains installed WARNING Unintentional starting of pump set Risk of injury by moving parts! ▷ Make sure that the pump set cannot be started up unintentionally. ▷ Always make sure the electrical connections are disconnected before carrying out work on the pump set. WARNING Fluids posing a health hazard and/or hot fluids Risk of personal injury! ▷ Observe all relevant laws. ▷ When draining the fluid take appropriate measures to protect persons and the environment. ▷ Decontaminate pumps which handle fluids posing a health hazard. CAUTION Danger of frost/freezing Damage to the pump set! ▷ If there is any danger of frost/freezing, remove the pump set from the fluid handled and clean, preserve and store it. ✓ Make sure sufficient fluid is available for the operation check run of the pump set. 1. For prolonged shutdown periods, start up the pump set regularly between once a month and once every three months for approximately one minute.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 32,
+      "heading": "Commissioning/Start-up/Shutdown",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg33_chunk1",
+    "text_to_embed": "This will prevent the formation of deposits within the pump and the pump intake area. The pump (set) is removed from the pipe and stored ✓ All safety regulations are observed. (⇨ Section 7.1 Page 39) 1. Clean the pump set. 2. Preserve the pump set. (⇨ Section 3.3 Page 13) 3. Observe the relevant instructions in this manual. (⇨ Section 3.3 Page 13) 6.4 Returning to service For returning the pump set to service observe the sections on commissioning/start-up (⇨ Section 6 Page 34) and operating limits (⇨ Section 6.2 Page 35). For returning the product to service after storage also follow the instructions for servicing/inspection. (⇨ Section 7.2 Page 40) WARNING Failure to re-install or re-activate protective devices Risk of personal injury from moving parts or escaping fluid! ▷ As soon as the work is completed, re-install and/or re-activate any safety- relevant and protective devices. NOTE On pumps/pump sets older than 5 years we recommend replacing all elastomer seals.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 33,
+      "heading": "Commissioning/Start-up/Shutdown",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg34_chunk1",
+    "text_to_embed": "7 Servicing/Maintenance 7.1 Safety regulations The operator ensures that all maintenance, inspection and installation work is performed by authorized, qualified specialist personnel who are thoroughly familiar with the manual. DANGER Sparks produced during maintenance work Explosion hazard! ▷ Always perform maintenance work on explosion-proof pump sets outside potentially explosive atmospheres. WARNING Unintentional starting of pump set Risk of injury by moving parts! ▷ Make sure that the pump set cannot be started up unintentionally. ▷ Always make sure the electrical connections are disconnected before carrying out work on the pump set. WARNING Fluids posing a health hazard and/or hot fluids Risk of personal injury! ▷ Observe all relevant laws. ▷ When draining the fluid take appropriate measures to protect persons and the environment. ▷ Decontaminate pumps which handle fluids posing a health hazard. WARNING Hot surface Risk of personal injury! ▷ Allow the pump set to cool down to ambient temperature. WARNING Insufficient stability Risk of crushing hands and feet! ▷ During assembly/dismantling, secure the pump (set)/pump parts against tipping or falling over. NOTE Special regulations apply to repair work on explosion-proof pump sets. Modifications or alteration of the pump sets can affect explosion protection and are only permitted after consultation with the manufacturer. A regular maintenance schedule will help avoid expensive repairs and contribute to trouble-free, reliable operation of the pump (set) with a minimum of maintenance expenditure and work. NOTE All maintenance, service and installation work can be carried out by KSB Service or an authorized workshop. Find your contact in the attached \"Addresses\" booklet or on the Internet at www.ksb.com/contact\". Never use force when dismantling and reassembling the pump set.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 34,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg35_chunk1",
+    "text_to_embed": "7.2 Servicing/inspection KSB recommends the following schedule for pump set maintenance: Table 14, titled 'Overview of maintenance work,' summarizes the recommended maintenance tasks and their intervals, along with references for more detailed instructions. Every 4000 operating hours⁷⁾, the maintenance work includes Measure the insulation resistance, Check the power cables, and Visually inspect the lifting chain/rope. Details for measuring insulation resistance can be found in Section 7.2.1.3 on Page 40 (indicated by the cross-reference symbol ⇒). Details for checking power cables are in Section 7.2.1.2 on Page 40. Details for visually inspecting the lifting chain/rope are in Section 7.2.1.1 on Page 40. Every 10,000 operating hours⁸⁾, the maintenance work includes Check the sensors, Check the mechanical seal leakage, Change the lubricant, and Lubricate the bearings. Details for checking sensors are in Section 7.2.1.4 on Page 41. There is no specific reference listed for checking mechanical seal leakage or lubricating the bearings in this table row. However, changing the lubricant details are in Section 7.2.2.1.4 on Page 43. Finally, Every 5 years, the recommended maintenance work is to Perform a general overhaul, with no specific reference listed in this table. The superscripts 7) and 8) indicate there may be footnotes providing more context for these intervals, but the footnotes themselves are not present in the image. 7.2.1 Inspection work 7.2.1.1 Checking the lifting chain/rope ✓ The pump set has been lifted out of the pump sump and cleaned. 1. Inspect the lifting chain or rope as well as the attachment for any visible damage. 2. Replace any damaged components by original spare parts. 7.2.1.2 Checking the power cables ✓ The pump set has been lifted out of the pump sump and cleaned. 1. Inspect the power cable for visible damage. 2. Replace damaged components by original spare parts. ✓ The pump set has been lifted out of the pump sump and cleaned. 1. Measure the resistance between ground conductor and ground. The resistance must be lower than 1 Ω. 2. Replace damaged components by original spare parts. DANGER Defective ground conductor Electric shock! ▷ Never switch on a pump set with a defective ground conductor. 7.2.1.3 Measuring the insulation resistance Measure the insulation resistance of the motor winding during annual maintenance work. ✓ The pump set has been disconnected in the control cabinet. ✓ Use an insulation resistance measuring device. ✓ The maximum measuring voltage is 500 V (maximum permissible voltage 1000 V). 1. Measure the winding against ground. To do so, connect all winding ends together. 2. Measure the winding temperature sensor against ground. To do so, connect all core ends of the winding temperature sensors together and connect all winding ends to ground. Visual inspection Checking the ground conductor 7) At least once a year 8) At least every three years",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 35,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg36_chunk1",
+    "text_to_embed": "⇨The insulation resistance of the core ends against ground must not be lower than 1 MΩ. If the resistance measured is lower, power cable and motor resistance must be measured separately. Disconnect the power cable from the motor for this purpose. NOTE If the insulation resistance of one of the power cables is lower than 1 MΩ, the power cable is defective and must be replaced. NOTE If the insulation resistance values measured on the motor are too low, the winding insulation is defective. The pump set must not be returned to service in this case. 7.2.1.4 Checking the sensors CAUTION Excessive test voltage Damage to the sensors! ▷ Never test the sensors with voltages exceeding 30 V. The tests described below measure the resistance at the core ends of the control cable. The actual sensor function is not tested.  Temperature sensors in the motor winding. Table 15 shows Resistance measurement, indicating that measurement between terminals 21 and 22 should have a Resistance of less than 1 Ω, and between terminals 10 and 11 should have a Resistance between 200 Ω and 750 Ω. If the specified tolerances are exceeded, disconnect the power cable at the pump set and repeat the check inside the motor. If the tolerances are exceeded here, too, the motor section must be opened and overhauled. The temperature sensors are fitted in the stator winding and cannot be replaced.  Leakage sensor in the motor Table 16 shows Resistance measurement of leakage sensor in the motor, stating that measurement between terminals 9 and ground conductor (PE) should have a Resistance greater than 60 kΩ. Lower resistance values suggest water ingress into the motor. In this case the motor must be opened and overhauled.  Float switch (mechanical seal leakage) (pump sets with reinforced bearings only) Table 17 shows Resistance measurement of the float switch, where measurement between terminals 3 and 4 should have a Resistance of less than 1 Ω. If the readings suggest an open switch, check for mechanical seal leakage. Bearing temperature sensor Table 18 shows Resistance measurement of the bearing temperature sensors, specifying that measurement between terminals 15 and 16 should have a Resistance between 100 Ω and 120 Ω.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 36,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg37_chunk1",
+    "text_to_embed": "7.2.1.5 Checking the mechanical seal leakage (pump sets with reinforced bearings only) WARNING Fluids posing a health hazard and/or hot fluids Hazard to persons and the environment! ▷ Collect and properly dispose of flushing liquid and any residues of the fluid handled. ▷ Wear safety clothing and a protective mask, if required. ▷ Observe all legal regulations on the disposal of fluids posing a health hazard. NOTE Slight wear of the mechanical seal is unavoidable. This will be aggravated by abrasive substances contained in the fluid handled. ✓ The pump set has been placed in vertical position. 1. Place a suitable container under screw plug 903.34. 2. Remove screw plug 903.34 and joint ring 411.34. 3. Drain the leakage. NOTE If more than 0.26 quart [0.25 liters] of leakage should escape we recommend to replace the mechanical seals. 4. Close screw plug 903.34 with joint ring 411.34 again. 7.2.2 Lubrication and lubricant change 7.2.2.1 Lubricating the mechanical seal The mechanical seal is supplied with lubricant from the lubricant reservoir. 7.2.2.1.1 Intervals Replace the lubricant after every 10,000 operating hours but at least every 3 years. (⇨ Section 7.2 Page 40) 7.2.2.1.2 Lubricant quality The lubricant reservoir is filled at the factory with an environmentally friendly, non- toxic lubricant of medical quality (unless otherwise required by the customer). The following lubricants can be used to lubricate the mechanical seals: Table 19, titled ' Lubricant quality,' describes the required properties for the lubricant used. The Description specifies that Paraffin oil or white oil is recommended, with an Alternative being motor oil grades SAE 10W to SAE 20W. The table lists the necessary Properties: Kinematic viscosity at 104 °F (40 °C) should be 0.065 ft²/s², which is less than 20 mm²/s². The Flash point (measured using the Cleveland method) must be greater than 320 °F (greater than 160 °C). The Solidification point (pour point) should be less than -5 °F (less than -15 °C). Recommended lubricants: ▪Merkur WOP 40 PB, made by SASOL ▪Merkur white oil Pharma 40, made by DEA ▪Thin-bodied paraffin oil No. 7174, made by Merck ▪Equivalent brands of medical quality, non-toxic ▪Water-glycol mixture",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 37,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg38_chunk1",
+    "text_to_embed": "WARNING Contamination of fluid handled by lubricant Hazard to persons and the environment! ▷ Using machine oil is only permitted if the oil is disposed of properly. 7.2.2.1.4 Changing the lubricant WARNING Lubricants posing a health hazard and/or hot lubricants Hazard to persons and the environment! ▷ When draining the lubricant take appropriate measures to protect persons and the environment. ▷ Wear safety clothing and a protective mask, if required. ▷ Collect and dispose of any lubricants. ▷ Observe all legal regulations on the disposal of fluids posing a health hazard. WARNING Excess pressure in the lubricant reservoir Liquid spurting out when the lubricant reservoir is opened at operating temperature! ▷ Open the screw plug of the lubricant reservoir very carefully. 1. Position the pump set as shown",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 38,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg39_chunk1",
+    "text_to_embed": "2. Place a suitable container under the screw plug. 3. Unscrew screw plug 903 or 903.03 with joint ring 411.03 and, if applicable, screw plug 903.04 with joint ring 411.05. Drain the lubricant.Filling in the lubricant: 1. Position the pump set as shown. 2. Fill the lubricant through the lubricant filler opening until the lubricant reservoir overflows. 3. Close screw plug 903.03 again, fitting a new joint ring 411.03. 7.2.2.2 Lubricating the rolling element bearings The rolling element bearings of the pump set are grease-packed and maintenance- free, with the exception described below. On pump sets with reinforced bearings (⇨ Section 4.4 Page 16) the pump-end rolling element bearings can be relubricated; they must be relubricated as part of the maintenance work. 7.2.2.2.1 Grease quality  Grease quality: The following greases can be used to lubricate the rolling element bearings: ▪Lithium soap grease suitable for high temperatures  Recommended commercially available brands▪ESSO UNIREX N3 ▪FAG ARCANOL L40 ▪TEXACO HYTEX EP3/DEA Pragon 7.2.2.2.2 Grease quantity Lubricate the rolling element bearings with 2.1 oz [60 g] of grease. 7.2.2.2.3 Re-lubrication Pump sets with reinforced bearings:  An encapsulated water-tight lubricating nipple allows re-lubrication of the angular contact ball bearings without opening the pump. DANGER Dry running Explosion hazard! ▷ Re-lubricate explosion-proof pump sets outside potentially explosive atmospheres.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 39,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg40_chunk1",
+    "text_to_embed": "WARNING Hands or objects inside the pump casing Risk of injuries, damage to the pump! ▷ Never place your hands or any other objects into the pump. ▷ Check that the inside of the pump is free from any foreign objects. CAUTION Incomplete re-lubrication Bearing damage! ▷ Always re-lubricate the bearings with the pump set in operation. ✓ The pump set has been positioned on a level surface. ✓ The pump set is secured against tipping over. 1. Remove screw plug 903.46 and joint ring 411.46. 2. Connect the pump set to the power supply. (⇨ Section 5.4.2 Page 32) CAUTION Pump set running dry Increased vibrations! Damage to mechanical seals and bearings! ▷ Never operate the pump set outside the fluid to be handled for more than 60 seconds. 3. Start up the pump set. 4. Fill in grease via lubricating nipple 636.02. 5. Disconnect the pump set from the power supply again and make sure it cannot be switched on unintentionally. 6. Close screw plug 903.46 with joint ring 411.46 again. 7.3 Drainage/cleaning WARNING Fluids posing a health hazard and/or hot fluids Hazard to persons and the environment! ▷ Collect and properly dispose of flushing liquid and any residues of the fluid handled. ▷ Wear safety clothing and a protective mask, if required. ▷ Observe all legal regulations on the disposal of fluids posing a health hazard. 1. Always flush the pump if it has been used for handling noxious, explosive, hot or other hazardous fluids. 2. Always flush and clean the pump before transporting it to the workshop. Make sure to enclose a certificate of decontamination. (⇨ Section 10 Page 73) 7.4 Dismantling the pump set 7.4.1 General information/Safety regulations WARNING Unqualified personnel performing work on the pump (set) Risk of personal injury! ▷ Always have repair and servicing work performed by specially trained, qualified personnel.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 40,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg41_chunk1",
+    "text_to_embed": "WARNING Hot surface Risk of personal injury! ▷ Allow the pump set to cool down to ambient temperature. WARNING Improper lifting/moving of heavy assemblies or components Personal injury and damage to property! ▷ Use suitable transport devices, hoisting equipment and lifting tackle to move heavy assemblies or components. Observe the general safety instructions and information. (⇨ Section 7 Page 39) For dismantling and reassembly observe the general assembly drawing. In the event of damage you can always contact our service staff. DANGER Insufficient preparation of work on the pump (set) Risk of personal injury! ▷ Properly shut down the pump set. ▷ Close the shut-off elements in the suction and discharge line. ▷ Drain the pump and release the pump pressure. ▷ Close any auxiliary connections. ▷ Allow the pump set to cool down to ambient temperature. WARNING Components with sharp edges Risk of cutting or shearing injuries! ▷ Always use appropriate caution for installation and dismantling work. ▷ Wear work gloves. 7.4.2 Preparing the pump set ✓ The notes and steps stated in (⇨ Section 7.4.1 Page 45) have been observed/ carried out. 1. Interrupt the power supply and secure the pump against unintentional start-up. 2. Drain the lubricant. (⇨ Section 7.2.2.1.4 Page 43) 3. Drain the leakage chamber and leave it open for the duration of the disassembly. 7.4.3 Dismantling the pump section Dismantle the pump section in accordance with the relevant general assembly drawing. (⇨ Section 9.1 Page 58)",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 41,
+      "heading": "Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg42_chunk1",
+    "text_to_embed": "7.4.3.1 Removing the back pull-out unit 1. Undo screwed connections 902.01 and 920.01 and pull the complete back pull- out unit out of pump casing 101. 2. Place the back pull-out unit in a safe and dry assembly area and secure it against tipping over or rolling off. 7.4.3.2 Removing the impeller 7.4.3.2.1 Removing an impeller with tapered fit 1. Unscrew socket head cap screw 914.10 with disc 550.23. 2. Screw the grub screw fully into the shaft thread. 3. Pull off impeller 230 with a forcing screw. NOTE The forcing screw is not included in the scope of supply. It can be ordered separately from KSB.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 42,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg43_chunk1",
+    "text_to_embed": "7.4.3.2.2 Removing an impeller with cylindrical interference fit and key 1. Undo socket head cap screw 914.10 and impeller hub cap 260. 2. Remove the impeller using the special impeller fitting and removal tool. (⇨ Section 7.4.3.2.2.1 Page 48) 3. Remove key 940.01. 7.4.3.2.2.1 Using the special impeller fitting and removal tool 1. Screw hexagon head bolt 1 into the shaft end to prevent any damage to the shaft thread. 2. Screw part 2 into the impeller. 3. Screw threaded bolt 3 into part 2 and pull off the impeller. 7.4.3.3 Removing the mechanical seal Remove the mechanical seal in accordance with the general arrangement drawings. 7.4.3.3.1 Removing the pump-end mechanical seal ✓ The back pull-out unit and the impeller have been removed as described above. 1. Pull the rotating assembly of mechanical seal 433.02 off shaft 210. 2. Remove discharge cover 163 from bearing bracket 330. 3. Push the stationary seat of mechanical seal 433.02 out of discharge cover 163. 7.4.3.3.2 Removing the drive-end mechanical seal ✓ The back pull-out unit and the impeller have been removed as described above. 1. Remove locking ring 515 or circlip 932.03. 2. Pull the rotating assembly of mechanical seal 433.01 off shaft 210.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 43,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg44_chunk1",
+    "text_to_embed": "7.4.3.4 Removing the wear plate ✓ The back pull-out unit has been separated from the pump casing. ✓ The inside of the casing has been cleaned. ✓ The wear plate needs to be replaced as a result of visual inspection. 1. Transportable pump models: Separate the pump casing from the piping. 2. Undo hexagon socket head cap screws 914.12. 3. Remove wear plate 135.01 and O-rings 412.34. 7.4.4 Dismantling the motor section NOTE Special regulations apply to repair work on explosion-proof pump sets. Modifications or alteration of the pump sets can affect explosion protection and are only permitted after consultation with the manufacturer. NOTE The motors of explosion-proof pump sets are supplied in \"flameproof enclosure\" type of protection. Any work on the motor section which could affect explosion protection, such as re-winding and repair work involving machining, must be inspected by an approved expert or performed by the motor manufacturer. No modifications must be made to the internal configuration of the motor space. Repair work at the flameproof joints must only be performed in accordance with the manufacturer's instructions. When dismantling the motor section and the power cables make sure that the cores/ terminals are clearly marked for future reassembly. 7.5 Reassembling the pump set 7.5.1 General information/Safety regulations WARNING Improper lifting/moving of heavy assemblies or components Personal injury and damage to property! ▷ Use suitable transport devices, hoisting equipment and lifting tackle to move heavy assemblies or components. CAUTION Improper reassembly Damage to the pump! ▷ Reassemble the pump (set) in accordance with the general rules of sound engineering practice. ▷ Use original spare parts only. NOTE Before reassembling the motor section, check that all joints relevant to explosion protection (flamepaths) are undamaged. Any components with damaged flamepaths must be replaced. Refer to the flamepath positions specified in the Annex. Always reassemble the pump set in accordance with the corresponding general assembly drawing.Sealing elements: ▪O-rings – Check O-rings for any damage and replace by new O-rings, if required. – Never use O-rings that have been glued together from material sold by the yard.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 44,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg45_chunk1",
+    "text_to_embed": "▪Assembly adhesives – Avoid the use of assembly adhesives, if possible.Tightening torques: When reassembling the pump set, tighten all screws/bolts as indicated. In addition, secure all screwed connections closing off the flameproof enclosure with a thread-locking agent (Loctite Type 243). 7.5.2 Reassembling the pump section 7.5.2.1 Fitting the mechanical seal Observe the following points to ensure trouble-free operation of the mechanical seal: ▪Only remove the protective wrapping of the contact faces immediately before assembly takes place. ▪Make sure the surface of the shaft is absolutely clean and undamaged. ▪Immediately before installing the mechanical seal, wet the contact faces with a drop of oil. ▪For easier installation of bellows-type mechanical seals, wet the inside diameter of the bellows with soapy water (not oil). ▪To prevent any damage to the rubber bellows, place a thin foil (of approximately 0.0039 to 0.0118 inch [0.1 to 0.3 mm] thickness) around the free shaft stub. Slip the rotating assembly over the foil into its installation position. Then remove the foil. ✓ The shaft and rolling element bearings have been properly fitted in the motor. 1. Slide drive-end mechanical seal 433.01 onto shaft 210 and secure it with locking ring 515 or circlip 932.03. 2. Insert O-rings 412.04/412.35 and 412.15/412.11 into discharge cover 163, and press the discharge cover into bearing bracket 330 up to the stop. 3. Push pump-end mechanical seal 433.02 onto shaft 210. On special mechanical seals with covered springs, tighten the hexagon socket head cap screw at the rotating assembly before fitting the impeller. Observe dimension \"A\". 7.5.2.2 Fitting the impeller NOTE For bearing brackets with tapered fit make sure that the tapered fit of impeller and shaft is undamaged and installed free from grease.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 45,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg46_chunk1",
+    "text_to_embed": "✓ The shaft and rolling element bearings have been properly installed. ✓ The mechanical seals have been properly installed. 1. Slide impeller 230 onto the shaft end. 2. Screw in impeller screw 914.10 and disc 550.23. Tighten them with a torque wrench. 7.5.2.2.1 Fitting the impeller using the special impeller fitting and removal tool 1. Fit the impeller using the special impeller fitting and removal tool. (⇨ Section 7.5.2.2.1.1 Page 51) 2. Fit the impeller fastening elements. 7.5.2.2.1.1 Using the special impeller fitting and removal tool 1. Screw part 2 of the special impeller fitting and removal tool into the shaft end of the pump set. 2. Screw part 1 to the threaded bolt part 2.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 46,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg47_chunk1",
+    "text_to_embed": "7.5.2.2.2 Fitting the cutter Fitting the cutter ✓ The pump-end mechanical seal 433.02 has been fitted. 1. Slide impeller 230 onto the tapered shaft end. 2. Insert grooved pin 561.01 into the impeller and place impeller body 23-7 onto the centering hub. 3. Screw in impeller screw 914.10 and use a torque wrench to tighten the screw to a torque of 36.9 lbf ft [50 Nm]. 4. Fit the pump casing including O-ring 412.15 using hexagon head bolts 901.14. Use a torque wrench to tighten the bolts to a tightening torque of 44.3 lbf ft [60 Nm]. 5. Insert O-ring 412.16 in suction cover 162. 6. Fasten ring 500.02 with socket head cap screw 914.07 in the suction cover. 7. Insert the suction cover into the pump casing, making sure it touches the impeller vanes. (Make sure that socket head cap screws 914.15 do not protrude from the threaded holes in the suction cover.) 8. Screw in hexagon head bolt 901.15 to hold the suction cover in place. Do not tighten the bolt yet. 9. Measure the distance between the pump casing and the suction cover. Distance S should measure approximately 0.0079 ± 0.0039 in. [0.2 ± 0.1 mm]. 10. If required, adjust the position of the suction cover in relation to the pump casing using socket head cap screw 914.15. 11. Tighten hexagon head bolt 901.15 to a torque of 22.1 lbf ft [30 Nm]. 12. Rotate the impeller body to check that the impeller turns smoothly. Make sure that the suction cover and impeller do not touch each other. 7.5.2.3 Installing the back pull-out unit 7.5.2.3.1 Design with axial clearance NOTE After casing wear rings with a radial clearance have been fitted in pump casing 101 they have the required inner diameter and do not need to be readjusted. 1. Use a rubber mallet to push casing wear ring 502 into pump casing 101 as far as it will go. 2. Insert the complete back pull-out unit into the pump casing.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 47,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg48_chunk1",
+    "text_to_embed": "3. Evenly tighten screwed connection 920.01 between pump casing and bearing bracket. CAUTION Axial displacement of the rotor Damage to shaft seal and bearings! ▷ Always adjust and check the axial clearance with the pump set in vertical position. 4. Use a rubber mallet to push casing wear ring 502 in until it is close to impeller 230. 5. Suspend the pump set vertically, as illustrated. 6. Lift off the pump set and adjust the axial clearance to 0.0118 ± 0.0039 in [0.3 ± 0.1 mm]. 7.5.2.3.2 Design with wear plate ✓ The shaft, rolling element bearings, mechanical seal and impeller have been assembled properly.1. Equip wear plate 135 with two new O-rings 412.33 and 412.34. 2. Insert wear plate 135 into pump casing 101.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 48,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg49_chunk1",
+    "text_to_embed": "3. Fasten wear plate 135 to pump casing 101 with hexagon socket head cap screws 914.12. 4. Adjust the clearance between impeller 230 and wear plate 135 by tightening and loosening screws 914.12 and 914.24. ⇨Screw 914.24 pushes the wear plate in the direction of the impeller. ⇨The clearance equals 0.0157 +0.0079 in. [0.4 +0.2 mm] (measured on the suction side from the outer surface of the impeller vane to the wear plate). 5. Insert the complete back pull-out unit into the pump casing. 6. Evenly tighten screwed connection 920.01 between pump casing and bearing bracket. 7.5.3 Reassembling the motor section NOTE Before reassembling the motor section, check that all joints relevant to explosion protection (flamepaths) are undamaged. Any components with damaged flamepaths must be replaced. Only use original spare parts made by KSB for explosion-proof pumps. Observe the flamepath positions specified in the Annex. Secure all screwed connections closing off the flameproof enclosure with a thread-locking agent (Loctite type 243). DANGER Incorrect screws/bolts Explosion hazard! ▷ Always use the original screws/bolts for assembling an explosion-proof pump set. ▷ Never use screws/bolts of different dimensions or of a lower property class. 7.5.4 Leak testing After reassembly, always test the mechanical seal area/lubricant reservoir for leakage. The leak test is performed using the lubricant filler opening. Observe the following values for leak testing: ▪Test medium: compressed air ▪Test pressure: 11.6 psi [0.8 bar] max. ▪Test period: 2 minutes 1. Unscrew and remove the screw plug and joint ring of the lubricant reservoir. 2. Screw the testing device tightly into the lubricant filler opening. 3. Carry out the leak test with the values specified above. The pressure must not drop during the test period. If the pressure does drop, check the seals and screwed connections. Then perform another leak test. 4. If the leak test has been successful, fill in the lubricant. (⇨ Section 7.2.2.1 Page 42)",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 49,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg50_chunk1",
+    "text_to_embed": "7.5.5 Checking the connection of motor/power supply Once reassembly has been completed, carry out the steps described in (⇨ Section 7.2.1 Page 40). 7.7 Spare parts stock 7.7.1 Ordering spare parts Always quote the following data when ordering replacement or spare parts: ▪Pump type ▪KSB order number ▪Motor number Refer to the name plate for all data. (⇨ Section 4.3 Page 15) Also supply the following data: ▪Description ▪Part No. ▪Quantity of spare parts ▪Shipping address ▪Mode of dispatch (freight, mail, express freight, air freight) Refer to the general assembly drawing for part numbers and descriptions. (⇨ Section 9.1 Page 58) ",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 50,
+      "heading": " Servicing/Maintenance",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg52_chunk1",
+    "text_to_embed": "8 Trouble-shooting A: Pump is running but does not deliver B: Pump delivers insufficient flow rate C: Excessive current/power consumption D: Insufficient discharge head E: Vibrations and noise during pump operation This table, titled 'Table 27: Trouble-shooting,' provides a guide to diagnosing and resolving issues with a pump, linking possible causes and their remedies to specific faults indicated by columns A, B, C, D, and E. If a possible cause is Pump delivers against an excessively high discharge pressure, it is associated with Fault A, and the remedy is to Re-adjust to duty point. If the Gate valve in the discharge line is not fully open, this is a possible cause for Fault B, and the remedy is to Fully open the gate valve. A possible cause of Fault C and Fault E is the Pump is running in the off-design range (low flow/overload), for which the remedy is to Check the pump's operating data. If Pump or piping are not completely vented, this is a possible cause for Fault A, and the remedy is to Vent by lifting the pump off the duckfoot bend and lowering it again. Pump intake clogged by deposits can cause Fault A, and the remedy is to Clean the intake, pump components and non-return valve. If the Suction line or impeller clogged, this can cause Fault A, Fault C, and Fault E, and the remedy is to Remove deposits in the pump and/or piping. Dirt/fibers in the clearance between the casing wall and impeller of a sluggish rotor is a possible cause for Fault C and Fault E, with the remedy being to Check whether the impeller can be easily rotated and Clean the impeller, if required. Wear of internal parts can cause Fault A, Fault B, Fault C, Fault D, and Fault E, and the remedy is to Replace worn parts by new ones. Defective riser pipe (pipe and sealing elements) is a possible cause for Fault A and Fault E, requiring you to Replace defective riser pipes and replace sealing elements. Impermissible air or gas content in the fluid handled can cause Fault A and Fault E, for which the remedy is to Contact KSB. System-induced vibrations can cause Fault A, Fault B, Fault C, Fault D, and Fault E, with the remedy being to Contact KSB. Wrong direction of rotation is a possible cause for Fault A, Fault B, Fault C, and Fault E, and the remedy is to Check the connection of the motor and switchgear, if any. Wrong supply voltage can cause Fault A, Fault B, and Fault D, and the remedy is to Check the power cable and Check the cable connections. If the Motor is not running because of lack of voltage, this can cause Fault A and Fault B, and the remedy is to Check the electrical installation and Contact the energy supplier. Motor winding or power cable defective can cause Fault B and Fault D, requiring you to Replace with original KSB parts or contact KSB.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 52,
+      "heading": "Troubleshooting",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  },
+  {
+    "id": "sumbersible_motor_pump_pg52_chunk2",
+    "text_to_embed": "of the motor and switchgear, if any. Wrong supply voltage can cause Fault A, Fault B, and Fault D, and the remedy is to Check the power cable and Check the cable connections. If the Motor is not running because of lack of voltage, this can cause Fault A and Fault B, and the remedy is to Check the electrical installation and Contact the energy supplier. Motor winding or power cable defective can cause Fault B and Fault D, requiring you to Replace with original KSB parts or contact KSB. Defective rolling element bearing(s) is a possible cause for Fault D, and the remedy is to Contact KSB. In case of star-delta configuration, if the motor is running in star configuration only, this can cause Fault B and Fault E, and the remedy is to Check star-delta contactor. If the Water level lowered too much during operation, this can cause Fault A, and the remedy is to Check level control equipment. The temperature control device for monitoring the winding has tripped due to excessive winding temperature, a possible cause for Fault A, means The motor will restart automatically once it has cooled down. If The thermistor tripping unit with manual reset for temperature limiter (explosion protection) has tripped the pump as a result of the permissible winding temperature being exceeded, this can cause Fault A, and you should Have cause determined and eliminated by qualified and trained personnel. If the Motor has been tripped by leakage monitor, it is a possible cause for Fault A, and the remedy is to Have cause determined and eliminated by qualified and trained personnel. Similarly, if the Mechanical seal monitor has tripped, causing Fault A, you should Have cause determined and eliminated by qualified and trained personnel. Finally, if the Bearing temperature monitor has tripped, causing Fault A, you should Have cause determined and eliminated by qualified and trained personnel.",
+    "metadata": {
+      "source_document": "sumbersible_motor_pump",
+      "page_number": 52,
+      "heading": "Troubleshooting",
+      "timestamp": "2025-05-10T07:07:01.488332"
+    }
+  }
+]
