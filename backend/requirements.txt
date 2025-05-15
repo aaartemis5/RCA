@@ -1,37 +1,19 @@
-# Web Framework & CORS
-Flask==3.1.0
-flask-cors==5.0.1
+python-dotenv==1.0.1
 
-# LLM API Client
-groq==0.20.0
+# LLM API Client (OpenAI)
+openai=1.76.2  # For OpenAI API v1.x calls (ensure compatibility with your OpenAI usage)
 
 # Vector Database Client
 pinecone-client==5.0.1
 
-# MongoDB Driver
-pymongo==4.11.3
-
-# Environment Variables
-python-dotenv==1.0.1
-
 # Langchain Core & Components
-langchain==0.3.19
-langchain-community==0.3.18
-langchain-core==0.3.50
-langchain-huggingface==0.1.2
-langchain-text-splitters==0.3.7
+langchain==0.3.19          # For PromptTemplate
+langchain-community==0.3.18  # For Pinecone vector store integration
+langchain-openai=0.3.15  # For OpenAIEmbeddings with Langchain (ensure compatibility)
 
-# Embeddings & Transformers
-sentence-transformers==3.4.1
-transformers==4.49.0
-torch==2.6.0
-
-# Utilities
-requests==2.32.3
-werkzeug==3.1.3 # For secure_filename
-
-# --- File Parsing & Handling ---
-PyMuPDF==1.25.5
+# Data Handling
 pandas==2.2.3
-openpyxl==3.1.5 # Required by pandas for .xlsx files
-python-magic-bin==0.4.14 # For file type detection on Windows
+
+fastapi=0.115.12 
+uvicorn=0.34.2
+pydantic=2.11.3
