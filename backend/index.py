@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # --- Constants ---
 METADATA_SIZE_LIMIT_BYTES = 35 * 1024
-INPUT_DATA_PATH = "data.json" # Path to combined/cleaned data
+INPUT_DATA_PATH = "combined_output.json" # Path to combined/cleaned data
 PROCESSED_IDS_FILE = "backend\processed_chunk_ids.json" # Tracking file using alias name
 OPENAI_EMBEDDING_BATCH_SIZE = 100 # How many texts to send to OpenAI API at once
 PINECONE_UPSERT_BATCH_SIZE = 100 # How many vectors to send to Pinecone at once

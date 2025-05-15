@@ -18,14 +18,14 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 retriever = None
 try:
     # Initialize retriever (adjust k_results if desired)
-    retriever = get_retriever(k_results=5) # Fetch top 5 chunks
+    retriever = get_retriever(k_results=9) # Fetch top 9 chunks
     logging.info("Retriever initialized successfully.")
 except Exception as e:
     logging.error(f"CRITICAL: Failed to initialize retriever: {e}", exc_info=True)
     print("\nERROR: Could not initialize the document retriever. Exiting.")
     exit(1)
 # Note: Embedding model is loaded within get_retriever
-# Note: Groq client is initialized within prompt_llm.py when get_llm_response is called
+# Note: LLM client is initialized within prompt_llm.py when get_llm_response is called
 
 def run_terminal_chat():
     """Runs the interactive terminal-based RAG loop."""
@@ -51,31 +51,8 @@ def run_terminal_chat():
                 retrieved_docs: List[Any] = retriever.invoke(user_query)
                 logging.info(f"Retriever invoked. Returned {len(retrieved_docs)} Langchain Document objects.")
 
-                # <<<--- ADDED DEBUG LOGGING for Raw Retrieved Docs --- >>>
-                if retrieved_docs:
-                    print("\n--- DEBUG: Raw Retrieved Metadata from Langchain Docs ---")
-                    for i, doc in enumerate(retrieved_docs):
-                        raw_metadata = getattr(doc, 'metadata', 'METADATA ATTRIBUTE MISSING')
-                        page_content_exists = hasattr(doc, 'page_content') and doc.page_content is not None and doc.page_content != ""
-                        print(f"  Doc {i+1} Metadata: {str(raw_metadata)[:500]}...") # Print metadata snippet
-                        # Explicitly check for the key retriever.py uses ('chunk_text' assumed)
-                        if isinstance(raw_metadata, dict):
-                            print(f"    Metadata contains 'chunk_text'? {'chunk_text' in raw_metadata}")
-                            # print(f"    Metadata contains 'text_snippet'? {'text_snippet' in raw_metadata}") # Uncomment if relevant
-                        else:
-                             print(f"    Metadata type is not dict: {type(raw_metadata)}")
-                        print(f"    Doc has valid page_content attribute? {page_content_exists}")
-                        if page_content_exists:
-                             print(f"    page_content snippet: {doc.page_content[:100]}...")
-                    print("--- END DEBUG ---")
-                # <<<--------------------------------------------------->>>
-
                 if not retrieved_docs:
                     print("Assistant: Found no specific documents matching the query in the knowledge base.")
-                    # Decide if you want to proceed without context
-                    # continue # Option 1: Ask for another query
-                    # pass # Option 2: Let it proceed to LLM with empty context list
-
             except Exception as e:
                 logging.error(f"Error during retrieval: {e}", exc_info=True)
                 print("Assistant: Sorry, I encountered an error while retrieving information.")
@@ -85,51 +62,57 @@ def run_terminal_chat():
             context_chunks_for_prompt: List[Dict[str, Any]] = []
             if retrieved_docs:
                 logging.info(f"Formatting {len(retrieved_docs)} retrieved docs for LLM prompt...")
+                # <<< --- ADDED PRINT STATEMENTS FOR FULL RETRIEVED CHUNK DETAILS --- >>>
+                print("\n" + "="*15 + " START: FULL RETRIEVED CONTEXT CHUNKS " + "="*15)
                 for i, doc in enumerate(retrieved_docs):
                     try:
-                        # Text content SHOULD be in page_content if text_key was correct
                         text_content = getattr(doc, 'page_content', None)
                         metadata = getattr(doc, 'metadata', {})
                         if not isinstance(metadata, dict): metadata = {}
+                        chunk_id = metadata.get('id', f"retrieved_doc_{i}")
 
-                        # Use the 'id' stored in metadata during indexing, or create fallback
-                        chunk_id = metadata.get('id', f"retrieved_doc_{i}") # Use ID from metadata
-
+                        print(f"\n--- Retrieved Chunk {i+1} (ID: {chunk_id}) ---")
+                        print(f"  Metadata: {json.dumps(metadata, indent=2)}") # Pretty print metadata
                         if text_content and isinstance(text_content, str):
-                            # Add to list for build_prompt
+                            print(f"  Full Text (page_content):\n{text_content}")
                             context_chunks_for_prompt.append({
                                 "id": chunk_id,
-                                "text_to_embed": text_content, # Use the text Langchain extracted
-                                "metadata": metadata # Pass original metadata along
+                                "text_to_embed": text_content,
+                                "metadata": metadata
                             })
                         else:
-                            # This directly relates to the warning you saw earlier
+                            print(f"  WARNING: Langchain Document {i} (ID: {chunk_id}) has missing/invalid page_content.")
                             logging.warning(f"Langchain Document {i} (ID: {chunk_id}) has missing/invalid page_content. This chunk WILL NOT be sent to LLM.")
+                        print(f"--- End of Chunk {i+1} ---")
                     except Exception as e:
                         logging.error(f"Error processing retrieved document {i} before formatting: {e}")
+                print("="*15 + " END: FULL RETRIEVED CONTEXT CHUNKS " + "="*15 + "\n")
+                # <<< --- END OF ADDED PRINT STATEMENTS --- >>>
 
-            # Check if any chunks were successfully formatted
             if not context_chunks_for_prompt:
-                 print("Assistant: Although matches were found, could not extract valid text content to analyze. Please check retriever configuration ('text_key') and indexed data.")
-                 # Optionally, you could still send the query to the LLM without context.
-                 # Let's continue for now, build_prompt will handle empty list.
-                 pass
+                 print("Assistant: Although matches might have been found, no valid text content could be extracted to analyze. Please check retriever configuration ('text_key') and indexed data.")
+                 # pass # Let it proceed, build_prompt handles empty list
 
-
-            print(f"Assistant: Found {len(context_chunks_for_prompt)} valid context snippets. Preparing analysis...")
-
+            print(f"Assistant: Using {len(context_chunks_for_prompt)} valid context snippets for analysis...")
 
             # 3. Build Prompt
             try:
                 final_prompt = build_prompt(user_query, context_chunks_for_prompt)
                 logging.info(f"Generated prompt for LLM (using {len(context_chunks_for_prompt)} chunks).")
+
+                # <<< --- PRINT THE ENTIRE FINAL PROMPT SENT TO LLM --- >>>
+                print("\n" + "="*20 + " FULL PROMPT BEING SENT TO LLM " + "="*20)
+                print(final_prompt)
+                print("="*20 + " END OF FULL PROMPT " + "="*20 + "\n")
+                # <<< --------------------------------------------------- >>>
+
             except Exception as e:
                 logging.error(f"Error building prompt: {e}", exc_info=True)
                 print("Assistant: Sorry, I encountered an error preparing the analysis request.")
                 continue
 
             # 4. Get LLM Response
-            print("Assistant: Analyzing...")
+            print("Assistant: Analyzing... (Sending request to LLM)")
             try:
                 answer = get_llm_response(final_prompt)
             except Exception as e:
@@ -138,7 +121,7 @@ def run_terminal_chat():
                 continue
 
             # 5. Print Answer
-            print("\nAssistant:")
+            print("\nAssistant (LLM Response):") # Clarified it's the LLM's response
             print(answer)
             print("-" * 30) # Separator for next query
 
@@ -146,13 +129,11 @@ def run_terminal_chat():
             print("\nExiting assistant. Goodbye!")
             break
         except Exception as e:
-            # Catch any other unexpected errors in the loop
             logging.error(f"An unexpected error occurred in the main loop: {e}", exc_info=True)
             print("Assistant: An unexpected error occurred. Please try again.")
 
 # --- Main Execution Guard ---
 if __name__ == "__main__":
-    # Ensure retriever is available before starting chat
     if retriever is None:
         logging.critical("Retriever is not initialized. Cannot start chat.")
     else:
