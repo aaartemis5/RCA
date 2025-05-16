@@ -1,7 +1,7 @@
 python-dotenv==1.0.1
 
 # LLM API Client (OpenAI)
-openai=1.76.2  # For OpenAI API v1.x calls (ensure compatibility with your OpenAI usage)
+openai==1.76.2  # For OpenAI API v1.x calls (ensure compatibility with your OpenAI usage)
 
 # Vector Database Client
 pinecone-client==5.0.1
@@ -9,11 +9,11 @@ pinecone-client==5.0.1
 # Langchain Core & Components
 langchain==0.3.19          # For PromptTemplate
 langchain-community==0.3.18  # For Pinecone vector store integration
-langchain-openai=0.3.15  # For OpenAIEmbeddings with Langchain (ensure compatibility)
+langchain-openai==0.3.15  # For OpenAIEmbeddings with Langchain (ensure compatibility)
 
 # Data Handling
 pandas==2.2.3
 
-fastapi=0.115.12 
-uvicorn=0.34.2
-pydantic=2.11.3
+fastapi==0.115.12 
+uvicorn==0.34.2
+pydantic==2.11.3
