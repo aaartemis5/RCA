@@ -20,6 +20,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_EMBEDDING_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
 # Specify the chat model to be used by prompt_llm.py (if using OpenAI)
 OPENAI_CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-3.5-turbo")
+OPENAI_CHAT_MODEL_descp = os.getenv("OPENAI_CHAT_MODEL_descp")
 logging.info(f"OpenAI Embedding Model: {OPENAI_EMBEDDING_MODEL}")
 logging.info(f"OpenAI Chat Model: {OPENAI_CHAT_MODEL}")
 
